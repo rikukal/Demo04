@@ -10,6 +10,8 @@ namespace T1_Hissi
     {
         static void Main(string[] args)
         {
+            //create an elevator object
+
         }
     }
 }
