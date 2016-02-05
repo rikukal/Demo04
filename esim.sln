@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonApp", "PersonApp\Pers
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T1_Hissi", "T1_Hissi\T1_Hissi.csproj", "{B28224FE-8826-4C1B-9F40-0C5A08D19456}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Radio", "D:\H8851\Demo04\radio\Radio.csproj", "{90C891F4-A58F-4547-9B0A-093E0ECFE8F4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{B28224FE-8826-4C1B-9F40-0C5A08D19456}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B28224FE-8826-4C1B-9F40-0C5A08D19456}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B28224FE-8826-4C1B-9F40-0C5A08D19456}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90C891F4-A58F-4547-9B0A-093E0ECFE8F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90C891F4-A58F-4547-9B0A-093E0ECFE8F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90C891F4-A58F-4547-9B0A-093E0ECFE8F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90C891F4-A58F-4547-9B0A-093E0ECFE8F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
