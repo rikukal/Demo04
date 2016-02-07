@@ -10,15 +10,15 @@ namespace T5_Radio
     {
         //field variables (tässä annetaan PRIVAATISTI olion ominaisuuksille RAJA-ARVOT
 
-            private readonly maxVolume = 9;
-            private readonly minVolume = 0;
-            private int Volume;
+        private readonly int maxVolume;
+        private readonly int minVolume;
 
-            private readonly maxFrequency = 26000;
-            private readonly minFrequency = 2000.0;
-            private double Frequency;
-            
+        private int volume;
+        
+        private readonly double maxFrequency;
+        private readonly double minFrequency;
 
+        private double frequency;    
 
         // property variables puretaan raja-arvot tarvittaessa get - set - mallin avulla , muutoin get-set- tavallisesti
 
@@ -26,16 +26,16 @@ namespace T5_Radio
         {
             get
             {
-                return volume; 
+                return volume;
             }
             set
             {
                 if (value > 9)
                 {
                     Console.WriteLine("Volume cannot be that loud - set to maxium volume");
-                        volume = 9; 
+                    volume = 9;
                 }
-                if else (value < 0)
+                else if (value < 0)
                 {
                     Console.WriteLine("Volume cannot be that low - set to minium volume ");
                     volume = 0;
@@ -46,6 +46,7 @@ namespace T5_Radio
                 }
 
             }
+        }
 
         public double Frequency
         {
@@ -60,16 +61,17 @@ namespace T5_Radio
                     Console.WriteLine("Frequncy has to be in 2000.0 - 26000.0 - set to minium limit");
                     frequency = 2000.0;
                 }
-                if else (value > 26000.0)
+                else if (value > 26000.0)
                 {
                     Console.WriteLine("Frequncy has to be in 2000.0 - 26000.0 - set to maxium limit");
                     frequency = 26000.0;
                 }
                 else
                 {
-                   frequency = value;
+                    frequency = value;
                 }
             }
+        }
 
         public bool IsOn { get; set; }
 

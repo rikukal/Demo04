@@ -12,10 +12,13 @@ namespace T5_Radio
         {
             //create a radio object
             Radio radio = new Radio();
-            radio.Volume = 0;
-            radio.Frequency = 10000;
+            radio.Volume = -5;
+            radio.Frequency = 0;
             radio.IsOn = true;
-            Console.WriteLine¨("\n Radio Information: \nIsOn: {0} \nVolume: {1} \nFrequency: {2}"), radio.IsOn,radio.Volume,radio.Frequency;
+            Console.WriteLine("Radio Information:");
+            Console.WriteLine("IsOn:" + radio.IsOn);
+            Console.WriteLine("Volume:" +radio.Volume);
+            Console.WriteLine("Frequency: " + radio.Frequency);
         }
     }
 }
